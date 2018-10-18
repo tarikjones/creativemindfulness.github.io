@@ -1,0 +1,290 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* relax */
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+#body-one {
+    background-color: #5e95ed;
+    color: white;
+    transition: background 60s;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.quotes {
+    display: none;
+    font-size: 5em;
+ 
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
+    z-index: 4;
+}
+
+#timer {
+    font-size: 1em;
+    padding: 1em;
+}
+
+#audio-toggle {
+    background: none;
+    margin-top: 1em;
+}
+
+
+#skip {
+    height: auto;
+    bottom: 3em;
+    right: 4em;
+    position: fixed;
+    display: none;
+}
+
+#skip>a {
+    color: black;
+}
+
+#skip>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* landing */
+
+.name {
+    font-size: 3em;
+    display: table;
+    margin: 1em auto;
+}
+
+
+.nav {
+    display: table;
+    margin: 0 auto 2em auto;
+    font-size: 1.2em;
+    padding: 0 4em 1em 4em;
+    border-bottom: 1px solid black;
+}
+
+.nav>li {
+    display: inline-block;
+}
+
+.nav>li>a{
+    color: black;
+}
+
+.nav>li>a:hover{
+    color: white;
+    background: none;
+}
+
+.active>a:hover{
+    color: white !important;
+}
+
+#nav1:hover{
+    background: #5e95ed;
+}
+
+#nav2:hover{
+    background: #5fcea5;
+}
+
+#nav3:hover{
+    background: #d8a35d;
+}
+
+.active>a {
+    color: #26659b !important;
+}
+
+#back {
+    bottom: 3em;
+    left: 2em;
+    position: fixed;
+    display: none;
+}
+
+#back>a{
+    color: black;
+}
+
+#back>a:hover{
+    color: #26659b;
+    text-decoration: none;
+}
+
+.container {
+    width: 65%;
+}
+
+h1 {
+    font-size: 3em;
+    margin: .5em 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: .5em 0 1em 0;
+    color: dimgrey;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin: 2em 0 0 0;
+    color: black;
+}
+
+h4{
+    font-size: 1.2em;
+    margin: 1em 0 1em 0;
+    color: dimgrey; 
+}
+
+p {
+    font-size: 1em;
+    margin: 1.2em auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    display: table;
+}
+
+.img-big {
+    margin: 3em 0;
+}
+
+ol {
+    font-size: 1em;
+    margin: 1.2em auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+    display: table;
+}
+
+ol>li {
+    margin: 1em auto;
+    list-style: decimal;
+}
+
+ol>span {
+    font-size: 1em;
+    margin: 1.2em auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+    display: table;
+}
+
+ol>span>li {
+    margin: 1em auto;
+    list-style: decimal;
+}
+    
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.one {
+    padding-left: 2em;
+}
+
+#one-img {
+    margin-top: 3em;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 2em 9em;
+    display: table;
+    margin: 4em auto 0 auto;
+}
+
+p, h4, h2, li {
+    line-height: 1.2em;
+}
+
+#inner-toggle-btn {
+    display: inline-block;
+    border: none;
+    background: none;
+}
+
+#inner-toggle-btn:hover {
+    color: black;
+}
+
+#audio-toggle {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#audio-toggle>button{
+    background: none !important;
+}
